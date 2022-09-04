@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    --cor1:#d87093;
+    --cor2:#ffc0cb;
+    --font1:Arial, Helvetica, sans-serif;
+    --font2: 'Dancing Script', cursive;
+
+}
+body{
+    background-color:#ffc0cb;
+}
+
+header{
+padding: 10px;
+
+}
+
+nav{
+   padding: 20px;
+   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+nav > a{
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+nav a:hover{
+    background-color: #d87093;
+    color: #000;
+    border-radius: 20px 10px;
+}
+main{
+padding: 10px;
+height: 50vh;
+width: 90vw;
+border-radius: 10px;
+margin: auto;
+box-shadow: 7px 1px 8px 1px rgba(70, 58, 58, 0.274);
+background-color:var(--cor1)
+}
+audio{
+    padding: 10px;
+    height: 30px;
+    width: 89vw;
+    
+
+}
+footer{
+    padding: 20px;
+}
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
